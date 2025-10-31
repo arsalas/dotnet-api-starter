@@ -1,0 +1,127 @@
+## ───────────────────────────────
+## .NET / ASP.NET Core
+## ───────────────────────────────
+
+# Compiled files
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.a
+*.lib
+*.db
+*.mdb
+
+# Auto-generated files
+*.pdb
+*.cache
+*.obj
+*.tmp
+*.log
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Visual Studio & Rider specific
+.vs/
+.idea/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Backup & generated files
+*.bak
+*.swp
+*.orig
+*.sln.docstates
+_ReSharper*/
+*.resharper
+
+# Publish output
+publish/
+out/
+dist/
+
+# User secrets / local config
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Entity Framework / SQLite local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage / Reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+*.trx
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Node / Frontend optional (if project has client)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# ───────────────────────────────
+# Optional template cleanups
+# ───────────────────────────────
+
+# Remove generated SSL certs for local dev
+*.pfx
+*.pem
+*.crt
+*.key
+
+# Ignore local environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# JetBrains Rider HTTP request history
+httpRequests/
+
+# Temporary test artifacts
+*.tlog
+*.temp
+

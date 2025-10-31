@@ -1,0 +1,6 @@
+﻿services:
+  ApiStarter:
+    image: ApiStarter
+    build:
+      context: .
+      dockerfile: ApiStarter/Dockerfile
